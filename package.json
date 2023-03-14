@@ -1,0 +1,22 @@
+{
+  "name": "what-should-you-drink",
+  "version": "1.0.0",
+  "description": "A random message generator that tells you what you cocktail you should make and displays a recipe to follow",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sojazzzzzy/What-Should-You-Drink.git"
+  },
+  "author": "Jazmine Washington",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sojazzzzzy/What-Should-You-Drink/issues"
+  },
+  "homepage": "https://github.com/sojazzzzzy/What-Should-You-Drink#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
