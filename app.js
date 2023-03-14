@@ -1,3 +1,5 @@
+// What should you drink is an app where you press a button and a random cocktail recipe will generate and display its ingredients, garnishes, and glassware
+
 let drinks = [
 	{
 		name: 'Vodka Tonic',
@@ -40,4 +42,16 @@ let drinks = [
 	},
 ];
 
-console.log(drinks);
+// Random number function that will generate a number to index a drink
+
+function getRandomNumber() {
+	min = Math.ceil(0);
+	max = Math.floor(drinks.length);
+	return Math.floor(Math.random() * (max - min) + min);
+}
+
+function getRandomDrink() {
+	return getRandomNumber();
+}
+
+console.log(getRandomDrink());
