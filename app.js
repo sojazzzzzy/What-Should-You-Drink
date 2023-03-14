@@ -51,7 +51,8 @@ function getRandomNumber() {
 }
 
 function getRandomDrink() {
-	return getRandomNumber();
+	let drinkIndex = getRandomNumber();
+	return drinks[drinkIndex];
 }
 
 console.log(getRandomDrink());
