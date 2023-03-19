@@ -43,16 +43,21 @@ let drinks = [
 ];
 
 // Random number function that will generate a number to index a drink
+// const theDrink = document.querySelector('.theDrink');
 
-function getRandomNumber() {
-	min = Math.ceil(0);
-	max = Math.floor(drinks.length);
-	return Math.floor(Math.random() * (max - min) + min);
-}
+// function getRandomNumber() {
+// 	min = Math.ceil(0);
+// 	max = Math.floor(drinks.length);
+// 	return Math.floor(Math.random() * (max - min) + min);
+// }
 
-function getRandomDrink() {
-	let drinkIndex = getRandomNumber();
-	return drinks[drinkIndex];
-}
+// function getRandomDrink() {
+// 	let drinkIndex = getRandomNumber();
+// 	return drinks[drinkIndex];
+// }
+// let listTest = document.createElement('ul');
+// let testing = document.createElement('li');
+// testing.innerText = 'this is a test';
+// listTest.appendChild(testing);
 
-console.log(getRandomDrink());
+console.log(drinks);
